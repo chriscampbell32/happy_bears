@@ -1,11 +1,19 @@
 {
   "name": "happy_bears",
   "version": "1.0.0",
-  "description": "query bears in my db",
+  "description": "happy bears db",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chriscampbell32/happy_bears.git"
+  },
   "author": "chris",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chriscampbell32/happy_bears/issues"
+  },
+  "homepage": "https://github.com/chriscampbell32/happy_bears#readme"
 }
