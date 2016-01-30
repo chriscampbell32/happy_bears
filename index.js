@@ -8,10 +8,14 @@ var connection = mysql.createConnection({
  
 connection.connect();
  
-connection.query('SELECT 1 + 1 AS solution', function(err, rows, fields) {
+connection.query('SELECT name, favorite_food, personality FROM happy_bears;', function(err, rows, fields) {
   if (err) throw err;
  
-  console.log('The solution is: ', rows[0].solution);
+  for (var i = 0; i < rows.length; i++){
+          console.log(rows[i].name);
+  }
+
 });
+
  
 connection.end();
